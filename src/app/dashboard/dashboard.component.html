@@ -1,0 +1,19 @@
+<h2>Dashboard</h2>
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div *ngIf="message" >
+                <!-- {{message.text.id}} -->
+                <div *ngFor="let m of message.text">
+                    <div class="alert alert-success">
+                        {{m.id}}<br>
+                        {{m.title}}<br>
+                        {{m.overview}}<br>
+                        <a href="#"><img class="img-responsive icon" id="image" src="https://image.tmdb.org/t/p/w1000/{{m.poster_path}}" style="width: 200px; height: 300px;"/>
+                        </a>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+</div>

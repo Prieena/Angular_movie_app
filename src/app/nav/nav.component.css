@@ -1,0 +1,38 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #081c24;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.nav li a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: auto;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1em;
+    list-style: none;
+    line-height: 1.4em;
+    padding-top: 30px;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-seri
+}
+
+.dropdown-menu ul a{
+    display: inline;
+}
+
+.dropdown-menu li a {
+    color: black;
+}
+

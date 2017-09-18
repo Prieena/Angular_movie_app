@@ -1,0 +1,14 @@
+<div class="searchbar">
+    <div class="container">
+        <form role="search">
+            <div class="input-group add-on">
+                <input [(ngModel)] = "query" class="form-control" placeholder="Search Movie" name="srch-term" id="srch-term" type="text">
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default" (click)="onSelect()">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div> 
+</div>
